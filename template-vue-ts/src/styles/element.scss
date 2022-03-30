@@ -1,0 +1,17 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #d81f3e,
+    ),
+  )
+);
+
+@import url('https://rsms.me/inter/inter.css');
+.el-input--round .el-input__inner {
+  border-radius: 34px;
+}
+
+html,
+body {
+  height: 100%;
+}
